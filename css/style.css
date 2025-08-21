@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 70px;
+}
+
+.header-menus {
+    display: flex;
+    gap: 55px;
+}
+
+.main {
+    display: flex;
+    height: calc(100vh - 60px);
+
+}
+
+h1 > .mi {
+    color: #cc2610;
+
+
+}
+h1 > .health {
+    color: #a5de54;
+}
+
+.left {
+    background-color: grey;
+    width: 30%;
+    max-width: 300px;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.right {
+   background-color: lightgrey;
+    width: calc(100% - 300px);
+}
+
+.healthy, .be {
+    display: flex;
+    flex-direction: column;
+}
+
