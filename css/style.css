@@ -1,13 +1,15 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
     
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 70px;
+    margin: 10px 70px;
 }
 
 .header-menus {
@@ -31,7 +33,7 @@ h1 > .health {
 }
 
 .left {
-    background-color: grey;
+    background-color: lightgrey;
     width: 30%;
     max-width: 300px;
     flex-direction: column;
@@ -42,10 +44,35 @@ h1 > .health {
 .right {
    background-color: lightgrey;
     width: calc(100% - 300px);
-}
-
-.healthy, .be {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
+.left, .right {
+    background-image: url('../mihealthbackground.png');
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+ .be {
+    display: flex;
+    
+    
+}
+
+   .pasta, .cereal, .shrimp {
+        
+        width: 25vw;
+        height: 73vh;
+        object-fit: cover;
+        border-radius: 8px;
+        margin: 50px 10px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+        vertical-align: top;
+        background-position: center;
+
+    }
