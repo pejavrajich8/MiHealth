@@ -1,23 +1,9 @@
-.browse-menu {
-    font-size: 1.3em;
-    font-weight: bold;
-    margin-top: 18px;
-    display: flex;
-    align-items: center;
-}
-
-.browse-arrow {
-    font-size: 1.5em;
-    vertical-align: middle;
-    margin-left: 6px;
-}
 html, body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif
-    
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -30,19 +16,16 @@ html, body {
     gap: 55px;
 }
 
-.main {
-    display: flex;
-    height: calc(100vh - 60px);
-
-}
-
 h1 > .mi {
     color: #cc2610;
-
-
 }
 h1 > .health {
     color: #a5de54;
+}
+
+.main {
+    display: flex;
+    height: calc(100vh - 60px);
 }
 
 .left {
@@ -62,8 +45,22 @@ h1 > .health {
     width: calc(100% - 64px);
 }
 
+.browse-menu {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.browse-arrow {
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
 .right {
-   background-color: lightgrey;
+    background-color: lightgrey;
     width: calc(100% - 300px);
     display: flex;
     flex-direction: row;
@@ -72,7 +69,6 @@ h1 > .health {
 .left, .right {
     background-image: url('../mihealthbackground.png');
     object-fit: cover;
-
 }
 
 h1 {
@@ -85,37 +81,32 @@ p {
     margin: 10px;
 }
 
- .be {
+.be {
     display: flex;
-    
 }
 
 .cereal {
     background-image: url('https://mtec.instructure.com/users/1655453/files/97536492/preview?verifier=6tEbdvAvl1QDIBpmCM7JsUVxgKimV50UJT2U9ivP');
-    
 }
-
 .pasta {
-    background-image: url('https://mtec.instructure.com/users/1655453/files/97536496/preview?verifier=VK9OiU1UaPH9JOuib0r3uToB6TFhYiHLHgPO8msU')
+    background-image: url('https://mtec.instructure.com/users/1655453/files/97536496/preview?verifier=VK9OiU1UaPH9JOuib0r3uToB6TFhYiHLHgPO8msU');
 }
-
 .shrimp {
     background-image: url('https://mtec.instructure.com/users/1655453/files/97536514/preview?verifier=QeYxnovrAJerviKMdtUTXdhxkXmxB3YEkbLtaS38');
 }
-   .pasta, .cereal, .shrimp {
-        width: 25vw;
-        height: 73vh;
-        object-fit: cover;
-        border-radius: 8px;
-        margin: 50px 10px;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.10);
-        vertical-align: top;
-        background-position: center;
-        position: relative;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-    }
+.pasta, .cereal, .shrimp {
+    width: 25vw;
+    height: 73vh;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 50px 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    vertical-align: top;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .image-label {
     position: absolute;
