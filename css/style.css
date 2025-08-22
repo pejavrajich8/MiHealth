@@ -11,6 +11,10 @@ html, body {
     margin: 10px 70px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header-menus {
     display: flex;
     gap: 55px;
