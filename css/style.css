@@ -50,22 +50,37 @@ h1 > .health {
 
 .left, .right {
     background-image: url('../mihealthbackground.png');
+    object-fit: cover;
+
 }
 
 h1 {
     font-size: 2.5rem;
-    font-weight: 800;
-    margin: 0;
+    margin: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px;
 }
 
  .be {
     display: flex;
-    
+}
+
+.cereal {
+    background-image: url('https://mtec.instructure.com/users/1655453/files/97536492/preview?verifier=6tEbdvAvl1QDIBpmCM7JsUVxgKimV50UJT2U9ivP');
     
 }
 
+.pasta {
+    background-image: url('https://mtec.instructure.com/users/1655453/files/97536496/preview?verifier=VK9OiU1UaPH9JOuib0r3uToB6TFhYiHLHgPO8msU')
+}
+
+.shrimp {
+    background-image: url('https://mtec.instructure.com/users/1655453/files/97536514/preview?verifier=QeYxnovrAJerviKMdtUTXdhxkXmxB3YEkbLtaS38');
+}
    .pasta, .cereal, .shrimp {
-        
         width: 25vw;
         height: 73vh;
         object-fit: cover;
@@ -74,5 +89,43 @@ h1 {
         box-shadow: 0 4px 16px rgba(0,0,0,0.10);
         vertical-align: top;
         background-position: center;
-
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
     }
+
+.image-label {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    background: rgb(34, 168, 34);
+    color: black;
+    padding: 8px 16px;
+    border-radius: 0 0 6px 6px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    pointer-events: none;
+    z-index: 2;
+    min-width: 120px;
+    text-align: center;
+}
+
+.image-label-top {
+    position: absolute;
+    right: 16px;
+    bottom: 56px;
+    background: #fff;
+    color: #222;
+    padding: 8px 16px;
+    border-radius: 6px 6px 0 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    pointer-events: none;
+    z-index: 3;
+    min-width: 120px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
