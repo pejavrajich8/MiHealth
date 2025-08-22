@@ -51,6 +51,8 @@ h1 > .health {
     margin-top: 18px;
     display: flex;
     align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .browse-arrow {
@@ -72,13 +74,16 @@ h1 > .health {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p {
     font-size: 1.2rem;
     margin: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .be {
