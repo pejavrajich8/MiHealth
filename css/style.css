@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif
     
     
 }
@@ -36,9 +36,16 @@ h1 > .health {
     background-color: lightgrey;
     width: 30%;
     max-width: 300px;
-    flex-direction: column;
     display: flex;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.left h1, .left p {
+    text-align: left;
+    width: calc(100% - 64px);
 }
 
 .right {
@@ -55,7 +62,7 @@ h1 > .health {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 10px;
 }
 
@@ -66,6 +73,7 @@ p {
 
  .be {
     display: flex;
+    
 }
 
 .cereal {
@@ -92,16 +100,16 @@ p {
         position: relative;
         background-size: cover;
         background-repeat: no-repeat;
-        
+
     }
 
 .image-label {
     position: absolute;
     right: 16px;
     bottom: 16px;
-    background: rgb(34, 168, 34);
+    background: #a5de54;
     color: black;
-    padding: 8px 16px;
+    padding: 8px 16px 8px 30px;
     border-radius: 0 0 6px 6px;
     font-size: 1.3rem;
     font-weight: 600;
