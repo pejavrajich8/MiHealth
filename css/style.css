@@ -1,3 +1,16 @@
+.browse-menu {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.browse-arrow {
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin-left: 6px;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -38,9 +51,10 @@ h1 > .health {
     max-width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 100%;
+    padding-top: 32px;
 }
 
 .left h1, .left p {
